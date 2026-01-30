@@ -239,5 +239,4 @@ def generate():
     else:
         return send_file(io.BytesIO(result), download_name="output.pptx", as_attachment=True)
 
-if __name__=="__main__":
-    app.run(debug=True)
+app = app
